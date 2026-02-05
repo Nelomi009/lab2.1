@@ -1,3 +1,10 @@
+/**************************
+* Автор: Черненко Никита. *
+* Дата: 05.02.2026        *
+* Вариант -               *
+***************************/
+
+
 using System;
 
 namespace lab1 {
@@ -8,6 +15,8 @@ namespace lab1 {
             int numA;
             int numN;
             int answer = 1;
+            string numX;
+            char num1;
 
             Console.WriteLine("enter a:");
 
@@ -17,14 +26,11 @@ namespace lab1 {
 
             numN = Convert.ToInt32(Console.ReadLine());
 
-            for (int indexI = 0; indexI < numN; indexI++) {
+            for (int indexI = 0; indexI < numN; ++indexI) {
                 answer = answer * numA;
             }
-            Console.WriteLine(answer);
-
-            string numX;
-            char num1;
-
+            Console.WriteLine(answer);                   
+            
             Console.WriteLine(" enter X >=100 ");
             numX = Console.ReadLine();
 
