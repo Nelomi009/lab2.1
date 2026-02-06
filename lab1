@@ -19,11 +19,9 @@ namespace lab1 {
             char num1;
 
             Console.WriteLine("enter a:");
-
             numA = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("enter n:");
-
             numN = Convert.ToInt32(Console.ReadLine());
 
             for (int indexI = 0; indexI < numN; ++indexI) {
